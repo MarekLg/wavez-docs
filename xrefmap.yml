@@ -2221,6 +2221,70 @@ references:
   isSpec: "True"
   fullName: WaveZ.Client.Menu.HowTo.HowToScreen.Z
   nameWithType: HowToScreen.Z
+- uid: WaveZ.Client.Menu.HowToScreen
+  name: HowToScreen
+  href: api/WaveZ.Client.Menu.HowToScreen.html
+  commentId: T:WaveZ.Client.Menu.HowToScreen
+  fullName: WaveZ.Client.Menu.HowToScreen
+  nameWithType: HowToScreen
+- uid: WaveZ.Client.Menu.HowToScreen.#ctor(System.Action{WaveZ.Client.GameState})
+  name: HowToScreen(Action<GameState>)
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen__ctor_System_Action_WaveZ_Client_GameState__
+  commentId: M:WaveZ.Client.Menu.HowToScreen.#ctor(System.Action{WaveZ.Client.GameState})
+  name.vb: New(Action(Of GameState))
+  fullName: WaveZ.Client.Menu.HowToScreen.HowToScreen(System.Action<WaveZ.Client.GameState>)
+  fullName.vb: WaveZ.Client.Menu.HowToScreen.New(System.Action(Of WaveZ.Client.GameState))
+  nameWithType: HowToScreen.HowToScreen(Action<GameState>)
+  nameWithType.vb: HowToScreen.New(Action(Of GameState))
+- uid: WaveZ.Client.Menu.HowToScreen.#ctor*
+  name: HowToScreen
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen__ctor_
+  commentId: Overload:WaveZ.Client.Menu.HowToScreen.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WaveZ.Client.Menu.HowToScreen.HowToScreen
+  fullName.vb: WaveZ.Client.Menu.HowToScreen.New
+  nameWithType: HowToScreen.HowToScreen
+  nameWithType.vb: HowToScreen.New
+- uid: WaveZ.Client.Menu.HowToScreen.Draw
+  name: Draw()
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen_Draw
+  commentId: M:WaveZ.Client.Menu.HowToScreen.Draw
+  fullName: WaveZ.Client.Menu.HowToScreen.Draw()
+  nameWithType: HowToScreen.Draw()
+- uid: WaveZ.Client.Menu.HowToScreen.Draw*
+  name: Draw
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen_Draw_
+  commentId: Overload:WaveZ.Client.Menu.HowToScreen.Draw
+  isSpec: "True"
+  fullName: WaveZ.Client.Menu.HowToScreen.Draw
+  nameWithType: HowToScreen.Draw
+- uid: WaveZ.Client.Menu.HowToScreen.Update
+  name: Update()
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen_Update
+  commentId: M:WaveZ.Client.Menu.HowToScreen.Update
+  fullName: WaveZ.Client.Menu.HowToScreen.Update()
+  nameWithType: HowToScreen.Update()
+- uid: WaveZ.Client.Menu.HowToScreen.Update*
+  name: Update
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen_Update_
+  commentId: Overload:WaveZ.Client.Menu.HowToScreen.Update
+  isSpec: "True"
+  fullName: WaveZ.Client.Menu.HowToScreen.Update
+  nameWithType: HowToScreen.Update
+- uid: WaveZ.Client.Menu.HowToScreen.Z
+  name: Z
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen_Z
+  commentId: P:WaveZ.Client.Menu.HowToScreen.Z
+  fullName: WaveZ.Client.Menu.HowToScreen.Z
+  nameWithType: HowToScreen.Z
+- uid: WaveZ.Client.Menu.HowToScreen.Z*
+  name: Z
+  href: api/WaveZ.Client.Menu.HowToScreen.html#WaveZ_Client_Menu_HowToScreen_Z_
+  commentId: Overload:WaveZ.Client.Menu.HowToScreen.Z
+  isSpec: "True"
+  fullName: WaveZ.Client.Menu.HowToScreen.Z
+  nameWithType: HowToScreen.Z
 - uid: WaveZ.Client.Menu.MainMenuScreen
   name: MainMenuScreen
   href: api/WaveZ.Client.Menu.MainMenuScreen.html
@@ -2808,6 +2872,19 @@ references:
   isSpec: "True"
   fullName: WaveZ.Client.UI.Title.Draw
   nameWithType: Title.Draw
+- uid: WaveZ.Client.UI.Title.Position
+  name: Position
+  href: api/WaveZ.Client.UI.Title.html#WaveZ_Client_UI_Title_Position
+  commentId: P:WaveZ.Client.UI.Title.Position
+  fullName: WaveZ.Client.UI.Title.Position
+  nameWithType: Title.Position
+- uid: WaveZ.Client.UI.Title.Position*
+  name: Position
+  href: api/WaveZ.Client.UI.Title.html#WaveZ_Client_UI_Title_Position_
+  commentId: Overload:WaveZ.Client.UI.Title.Position
+  isSpec: "True"
+  fullName: WaveZ.Client.UI.Title.Position
+  nameWithType: Title.Position
 - uid: WaveZ.Client.Ui
   name: WaveZ.Client.Ui
   href: api/WaveZ.Client.Ui_1.html

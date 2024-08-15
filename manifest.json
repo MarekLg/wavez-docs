@@ -392,6 +392,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Menu.HowToScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Menu.HowToScreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WaveZ.Client.Menu.MainMenuScreen.yml",
       "output": {
         ".html": {

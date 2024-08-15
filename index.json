@@ -2,7 +2,7 @@
   "api/WaveZ.Client.Game.html": {
     "href": "api/WaveZ.Client.Game.html",
     "title": "Class Game | WaveZ",
-    "keywords": "Class Game Namespace WaveZ.Client Assembly client.dll public class Game Inheritance object Game Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Game() public Game() Methods Draw() public void Draw() SwitchState(GameState) public void SwitchState(GameState newState) Parameters newState GameState Update() public void Update()"
+    "keywords": "Class Game Namespace WaveZ.Client Assembly client.dll Represents the main game class responsible for managing game states and screens. public class Game Inheritance object Game Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Game() Initializes a new instance of the Game class. public Game() Methods Draw() Draws the current screen. public void Draw() SwitchState(GameState) Switches the current game state and updates the screen accordingly. public void SwitchState(GameState newState) Parameters newState GameState The new game state to switch to. Update() Updates the current screen. public void Update()"
   },
   "api/WaveZ.Client.GameState.html": {
     "href": "api/WaveZ.Client.GameState.html",
@@ -12,7 +12,7 @@
   "api/WaveZ.Client.Gameplay.Entities.CameraManager.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.CameraManager.html",
     "title": "Class CameraManager | WaveZ",
-    "keywords": "Class CameraManager Namespace WaveZ.Client.Gameplay.Entities Assembly client.dll public static class CameraManager Inheritance object CameraManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties CurrentCamera public static Camera2D CurrentCamera { get; set; } Property Value Camera2D"
+    "keywords": "Class CameraManager Namespace WaveZ.Client.Gameplay.Entities Assembly client.dll Manages the current camera used in the game. public static class CameraManager Inheritance object CameraManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties CurrentCamera Gets or sets the current camera used in the game. public static Camera2D CurrentCamera { get; set; } Property Value Camera2D"
   },
   "api/WaveZ.Client.Gameplay.Entities.Enemies.BossProjectile.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Enemies.BossProjectile.html",
@@ -82,32 +82,32 @@
   "api/WaveZ.Client.Gameplay.Entities.Player.RemoteBullet.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.RemoteBullet.html",
     "title": "Class RemoteBullet | WaveZ",
-    "keywords": "Class RemoteBullet Namespace WaveZ.Client.Gameplay.Entities.Player Assembly client.dll public class RemoteBullet : IDrawable Inheritance object RemoteBullet Implements IDrawable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id public int Id { get; set; } Property Value int Position public Vector2 Position { get; set; } Property Value Vector2 Velocity public Vector2 Velocity { get; set; } Property Value Vector2 Z public int Z { get; } Property Value int Methods Draw() public void Draw()"
+    "keywords": "Class RemoteBullet Namespace WaveZ.Client.Gameplay.Entities.Player Assembly client.dll Represents a remote bullet in the game, which can be drawn on the screen. public class RemoteBullet : IDrawable Inheritance object RemoteBullet Implements IDrawable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id Gets or sets the unique identifier for the bullet. public int Id { get; set; } Property Value int Position Gets or sets the position of the bullet. public Vector2 Position { get; set; } Property Value Vector2 Velocity Gets or sets the velocity of the bullet. public Vector2 Velocity { get; set; } Property Value Vector2 Z Gets the Z-order of the bullet for drawing purposes. public int Z { get; } Property Value int Methods Draw() Draws the bullet on the screen. public void Draw()"
   },
   "api/WaveZ.Client.Gameplay.Entities.Player.RemoteGun.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.RemoteGun.html",
     "title": "Class RemoteGun | WaveZ",
-    "keywords": "Class RemoteGun Namespace WaveZ.Client.Gameplay.Entities.Player Assembly client.dll public class RemoteGun : IDrawable Inheritance object RemoteGun Implements IDrawable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Direction public Vector2 Direction Field Value Vector2 Position public Vector2 Position Field Value Vector2 Properties Id public int Id { get; set; } Property Value int Z public int Z { get; } Property Value int Methods Draw() public void Draw()"
+    "keywords": "Class RemoteGun Namespace WaveZ.Client.Gameplay.Entities.Player Assembly client.dll Represents a remote gun in the game, which can be drawn on the screen. public class RemoteGun : IDrawable Inheritance object RemoteGun Implements IDrawable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Direction Gets or sets the direction the gun is facing. public Vector2 Direction Field Value Vector2 Position Gets or sets the position of the gun. public Vector2 Position Field Value Vector2 Properties Id Gets or sets the unique identifier for the gun. public int Id { get; set; } Property Value int Z Gets the Z-order of the gun for drawing purposes. public int Z { get; } Property Value int Methods Draw() Draws the gun on the screen. public void Draw()"
   },
   "api/WaveZ.Client.Gameplay.Entities.Player.ShootingMode.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.ShootingMode.html",
     "title": "Enum ShootingMode | WaveZ",
-    "keywords": "Enum ShootingMode Namespace WaveZ.Client.Gameplay.Entities.Player Assembly client.dll public enum ShootingMode Fields Automatic = 2 Burst = 1 Semiautomatic = 0"
+    "keywords": "Enum ShootingMode Namespace WaveZ.Client.Gameplay.Entities.Player Assembly client.dll Represents the different shooting modes available for a player. public enum ShootingMode Fields Automatic = 2 Burst = 1 Semiautomatic = 0"
   },
   "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.IPlayerTargeting.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.IPlayerTargeting.html",
     "title": "Interface IPlayerTargeting | WaveZ",
-    "keywords": "Interface IPlayerTargeting Namespace WaveZ.Client.Gameplay.Entities.Player.Targeting Assembly client.dll public interface IPlayerTargeting Methods GetTargetMovement(Player) Vector2 GetTargetMovement(Player player) Parameters player Player Returns Vector2 a normalized vector containing direction the player should move to"
+    "keywords": "Interface IPlayerTargeting Namespace WaveZ.Client.Gameplay.Entities.Player.Targeting Assembly client.dll Defines the interface for player targeting functionality. public interface IPlayerTargeting Methods GetTargetMovement(Player) Gets the target movement direction for the player. Vector2 GetTargetMovement(Player player) Parameters player Player The player for whom the target movement is being calculated. Returns Vector2 A normalized vector containing the direction the player should move to."
   },
   "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.PlayerInputTargeting.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.PlayerInputTargeting.html",
     "title": "Class PlayerInputTargeting | WaveZ",
-    "keywords": "Class PlayerInputTargeting Namespace WaveZ.Client.Gameplay.Entities.Player.Targeting Assembly client.dll public sealed class PlayerInputTargeting : IPlayerTargeting Inheritance object PlayerInputTargeting Implements IPlayerTargeting Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Methods GetTargetMovement(Player) public Vector2 GetTargetMovement(Player player) Parameters player Player Returns Vector2 a normalized vector containing direction the player should move to"
+    "keywords": "Class PlayerInputTargeting Namespace WaveZ.Client.Gameplay.Entities.Player.Targeting Assembly client.dll Represents the player input targeting system, which calculates the target movement direction based on player input. public sealed class PlayerInputTargeting : IPlayerTargeting Inheritance object PlayerInputTargeting Implements IPlayerTargeting Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Methods GetTargetMovement(Player) Gets the target movement direction for the player based on keyboard input. public Vector2 GetTargetMovement(Player player) Parameters player Player The player for whom the target movement is being calculated. Returns Vector2 A normalized vector containing the direction the player should move to."
   },
   "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.html",
     "title": "Namespace WaveZ.Client.Gameplay.Entities.Player.Targeting | WaveZ",
-    "keywords": "Namespace WaveZ.Client.Gameplay.Entities.Player.Targeting Classes PlayerInputTargeting Interfaces IPlayerTargeting"
+    "keywords": "Namespace WaveZ.Client.Gameplay.Entities.Player.Targeting Classes PlayerInputTargeting Represents the player input targeting system, which calculates the target movement direction based on player input. Interfaces IPlayerTargeting Defines the interface for player targeting functionality."
   },
   "api/WaveZ.Client.Gameplay.Entities.Player.Weapon.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.Weapon.html",
@@ -122,12 +122,12 @@
   "api/WaveZ.Client.Gameplay.Entities.Player.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.Player.html",
     "title": "Namespace WaveZ.Client.Gameplay.Entities.Player | WaveZ",
-    "keywords": "Namespace WaveZ.Client.Gameplay.Entities.Player Classes Bullet Represents a bullet fired by the player. Gun Represents a gun used by the player in the game. Player Represents the mainplayer in the game. PlayerTextures Manages the ALL textures for different player characters and their weapons. RemoteBullet RemoteGun Weapon Implementing all funcionalitys of the weapons Enums ShootingMode WeaponType"
+    "keywords": "Namespace WaveZ.Client.Gameplay.Entities.Player Classes Bullet Represents a bullet fired by the player. Gun Represents a gun used by the player in the game. Player Represents the mainplayer in the game. PlayerTextures Manages the ALL textures for different player characters and their weapons. RemoteBullet Represents a remote bullet in the game, which can be drawn on the screen. RemoteGun Represents a remote gun in the game, which can be drawn on the screen. Weapon Implementing all funcionalitys of the weapons Enums ShootingMode Represents the different shooting modes available for a player. WeaponType"
   },
   "api/WaveZ.Client.Gameplay.Entities.html": {
     "href": "api/WaveZ.Client.Gameplay.Entities.html",
     "title": "Namespace WaveZ.Client.Gameplay.Entities | WaveZ",
-    "keywords": "Namespace WaveZ.Client.Gameplay.Entities Classes CameraManager"
+    "keywords": "Namespace WaveZ.Client.Gameplay.Entities Classes CameraManager Manages the current camera used in the game."
   },
   "api/WaveZ.Client.Gameplay.GameObject.html": {
     "href": "api/WaveZ.Client.Gameplay.GameObject.html",
@@ -162,7 +162,7 @@
   "api/WaveZ.Client.Gameplay.UI.GameplayOverlay.html": {
     "href": "api/WaveZ.Client.Gameplay.UI.GameplayOverlay.html",
     "title": "Class GameplayOverlay | WaveZ",
-    "keywords": "Class GameplayOverlay Namespace WaveZ.Client.Gameplay.UI Assembly client.dll public class GameplayOverlay Inheritance object GameplayOverlay Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors GameplayOverlay(Player, GameplayState, List<int>, float) public GameplayOverlay(Player player, GameplayState gameplayState, List<int> scores, float health) Parameters player Player gameplayState GameplayState scores List<int> health float Properties CurrentWave public static int CurrentWave { get; set; } Property Value int Methods Draw() public void Draw() Unload() public void Unload() Update(Player, List<int>, float) public void Update(Player player, List<int> scores, float health) Parameters player Player scores List<int> health float"
+    "keywords": "Class GameplayOverlay Namespace WaveZ.Client.Gameplay.UI Assembly client.dll public class GameplayOverlay Inheritance object GameplayOverlay Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors GameplayOverlay(Player, GameplayState, List<int>, float) Initializes a new instance of the GameplayOverlay class. public GameplayOverlay(Player player, GameplayState gameplayState, List<int> scores, float health) Parameters player Player The player instance. gameplayState GameplayState The current gameplay state. scores List<int> The list of player scores. health float The player's health. Properties CurrentWave public static int CurrentWave { get; set; } Property Value int Methods Draw() Draws the gameplay overlay on the screen. public void Draw() Unload() public void Unload() Update(Player, List<int>, float) Updates the gameplay overlay with the latest player, scores, and health information. public void Update(Player player, List<int> scores, float health) Parameters player Player The player instance. scores List<int> The list of player scores. health float The player's health."
   },
   "api/WaveZ.Client.Gameplay.UI.html": {
     "href": "api/WaveZ.Client.Gameplay.UI.html",
@@ -189,6 +189,11 @@
     "title": "Namespace WaveZ.Client.Menu.HowTo | WaveZ",
     "keywords": "Namespace WaveZ.Client.Menu.HowTo Classes HowToScreen Implementing the \"How To Screen\" on the starting screen (quick tutorial for beginners)"
   },
+  "api/WaveZ.Client.Menu.HowToScreen.html": {
+    "href": "api/WaveZ.Client.Menu.HowToScreen.html",
+    "title": "Class HowToScreen | WaveZ",
+    "keywords": "Class HowToScreen Namespace WaveZ.Client.Menu Assembly client.dll public class HowToScreen : IScreen Inheritance object HowToScreen Implements IScreen Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors HowToScreen(Action<GameState>) public HowToScreen(Action<GameState> onSwitchState) Parameters onSwitchState Action<GameState> Properties Z public int Z { get; } Property Value int Methods Draw() public void Draw() Update() public void Update()"
+  },
   "api/WaveZ.Client.Menu.MainMenuScreen.html": {
     "href": "api/WaveZ.Client.Menu.MainMenuScreen.html",
     "title": "Class MainMenuScreen | WaveZ",
@@ -197,17 +202,17 @@
   "api/WaveZ.Client.Menu.StartGameModal.html": {
     "href": "api/WaveZ.Client.Menu.StartGameModal.html",
     "title": "Class StartGameModal | WaveZ",
-    "keywords": "Class StartGameModal Namespace WaveZ.Client.Menu Assembly client.dll public class StartGameModal Inheritance object StartGameModal Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StartGameModal(Action, Action<string, int, string, string, string>?) public StartGameModal(Action onClose, Action<string, int, string, string, string>? onPlay) Parameters onClose Action onPlay Action<string, int, string, string, string> Properties getSelectedSkin public static int getSelectedSkin { get; } Property Value int Methods Draw() public void Draw() Update() public void Update() Events OnPlay public static event Action<string, int, string, string, string>? OnPlay Event Type Action<string, int, string, string, string>"
+    "keywords": "Class StartGameModal Namespace WaveZ.Client.Menu Assembly client.dll Represents the modal window for starting a game. public class StartGameModal Inheritance object StartGameModal Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StartGameModal(Action, Action<string, int, string, string, string>?) Initializes a new instance of the StartGameModal class. public StartGameModal(Action onClose, Action<string, int, string, string, string>? onPlay) Parameters onClose Action Action to be performed when the modal is closed. onPlay Action<string, int, string, string, string> Action to be performed when the play button is clicked. Properties getSelectedSkin public static int getSelectedSkin { get; } Property Value int Methods Draw() Draws the modal window. public void Draw() Update() Updates the modal window. public void Update() Events OnPlay Event triggered when the play button is clicked. public static event Action<string, int, string, string, string>? OnPlay Event Type Action<string, int, string, string, string>"
   },
   "api/WaveZ.Client.Menu.html": {
     "href": "api/WaveZ.Client.Menu.html",
     "title": "Namespace WaveZ.Client.Menu | WaveZ",
-    "keywords": "Namespace WaveZ.Client.Menu Classes MainMenuScreen Implementing MainMenuScreen (Starting Screen) to navigate through the Game StartGameModal"
+    "keywords": "Namespace WaveZ.Client.Menu Classes HowToScreen MainMenuScreen Implementing MainMenuScreen (Starting Screen) to navigate through the Game StartGameModal Represents the modal window for starting a game."
   },
   "api/WaveZ.Client.NetworkClient.html": {
     "href": "api/WaveZ.Client.NetworkClient.html",
     "title": "Class NetworkClient | WaveZ",
-    "keywords": "Class NetworkClient Namespace WaveZ.Client Assembly client.dll public static class NetworkClient Inheritance object NetworkClient Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields PacketProcessor public static readonly NetPacketProcessor PacketProcessor Field Value NetPacketProcessor ServerAddress public static string ServerAddress Field Value string Methods Connect(string, int) public static void Connect(string username, int selectedSkin) Parameters username string selectedSkin int Initialize() public static void Initialize() SendPacket<T>(T) public static void SendPacket<T>(T packet) where T : class, new() Parameters packet T Type Parameters T Stop() public static void Stop() Update() public static void Update() Events Connected public static event Action? Connected Event Type Action"
+    "keywords": "Class NetworkClient Namespace WaveZ.Client Assembly client.dll The network client class is responsible for handling the connection to the server and processing incoming packets. public static class NetworkClient Inheritance object NetworkClient Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields PacketProcessor public static readonly NetPacketProcessor PacketProcessor Field Value NetPacketProcessor ServerAddress public static string ServerAddress Field Value string Methods Connect(string, int) Connects to the server with the specified username and skin. public static void Connect(string username, int selectedSkin) Parameters username string The username of the player. selectedSkin int The selected skin of the player. Initialize() Initializes the network client and sets up the event listeners. public static void Initialize() SendPacket<T>(T) Sends a packet to the server. public static void SendPacket<T>(T packet) where T : class, new() Parameters packet T The packet to send. Type Parameters T The type of the packet to send. Stop() Stops the network client. public static void Stop() Update() Updates the network client. public static void Update() Events Connected public static event Action? Connected Event Type Action"
   },
   "api/WaveZ.Client.Resources.html": {
     "href": "api/WaveZ.Client.Resources.html",
@@ -237,7 +242,7 @@
   "api/WaveZ.Client.UI.Title.html": {
     "href": "api/WaveZ.Client.UI.Title.html",
     "title": "Class Title | WaveZ",
-    "keywords": "Class Title Namespace WaveZ.Client.UI Assembly client.dll Represents a title text with customizable appearance and rendering. public class Title Inheritance object Title Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Title(string, Vector2, int, Color, Color) Initializes a new instance of the Title class with specified parameters, using a default font. public Title(string text, Vector2 position, int fontSize, Color primaryColor, Color secondaryColor) Parameters text string The text content of the title. position Vector2 The position where the title will be drawn. fontSize int The size of the font used to render the title. primaryColor Color The primary color of the title's text. secondaryColor Color The secondary color used for specific characters in the title. Title(string, Vector2, int, Color, Color, Font) Initializes a new instance of the Title class with specified parameters, allowing a custom font to be used. public Title(string text, Vector2 position, int fontSize, Color primaryColor, Color secondaryColor, Font font) Parameters text string The text content of the title. position Vector2 The position where the title will be drawn. fontSize int The size of the font used to render the title. primaryColor Color The primary color of the title's text. secondaryColor Color The secondary color used for specific characters in the title. font Font The custom font used to render the title. Methods Draw() Draws the title text using the specified font, colors, and position. public void Draw()"
+    "keywords": "Class Title Namespace WaveZ.Client.UI Assembly client.dll Represents a title text with customizable appearance and rendering. public class Title Inheritance object Title Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Title(string, Vector2, int, Color, Color) Initializes a new instance of the Title class with specified parameters, using a default font. public Title(string text, Vector2 position, int fontSize, Color primaryColor, Color secondaryColor) Parameters text string The text content of the title. position Vector2 The position where the title will be drawn. fontSize int The size of the font used to render the title. primaryColor Color The primary color of the title's text. secondaryColor Color The secondary color used for specific characters in the title. Title(string, Vector2, int, Color, Color, Font) Initializes a new instance of the Title class with specified parameters, allowing a custom font to be used. public Title(string text, Vector2 position, int fontSize, Color primaryColor, Color secondaryColor, Font font) Parameters text string The text content of the title. position Vector2 The position where the title will be drawn. fontSize int The size of the font used to render the title. primaryColor Color The primary color of the title's text. secondaryColor Color The secondary color used for specific characters in the title. font Font The custom font used to render the title. Properties Position public Vector2 Position { get; set; } Property Value Vector2 Methods Draw() Draws the title text using the specified font, colors, and position. public void Draw()"
   },
   "api/WaveZ.Client.UI.html": {
     "href": "api/WaveZ.Client.UI.html",
@@ -257,7 +262,7 @@
   "api/WaveZ.Client.html": {
     "href": "api/WaveZ.Client.html",
     "title": "Namespace WaveZ.Client | WaveZ",
-    "keywords": "Namespace WaveZ.Client Classes Game NetworkClient Resources Get various types of resources by consistent identifiers. Enums GameState Implementing enum GameState to switch and work with them"
+    "keywords": "Namespace WaveZ.Client Classes Game Represents the main game class responsible for managing game states and screens. NetworkClient The network client class is responsible for handling the connection to the server and processing incoming packets. Resources Get various types of resources by consistent identifiers. Enums GameState Implementing enum GameState to switch and work with them"
   },
   "api/WaveZ.Server.Barrel.html": {
     "href": "api/WaveZ.Server.Barrel.html",
@@ -547,7 +552,7 @@
   "api/WaveZ.Test.PlayerTargeting.PlayerOrderTargeting.html": {
     "href": "api/WaveZ.Test.PlayerTargeting.PlayerOrderTargeting.html",
     "title": "Class PlayerOrderTargeting | WaveZ",
-    "keywords": "Class PlayerOrderTargeting Namespace WaveZ.Test.PlayerTargeting Assembly test.dll Provides movement to player using a queue of orders. public sealed class PlayerOrderTargeting : IPlayerTargeting Inheritance object PlayerOrderTargeting Implements IPlayerTargeting Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors PlayerOrderTargeting(IEnumerable<IOrder>) Provides movement to player using a queue of orders. public PlayerOrderTargeting(IEnumerable<IOrder> orders) Parameters orders IEnumerable<IOrder> Methods GetTargetMovement(Player) public Vector2 GetTargetMovement(Player player) Parameters player Player Returns Vector2 a normalized vector containing direction the player should move to"
+    "keywords": "Class PlayerOrderTargeting Namespace WaveZ.Test.PlayerTargeting Assembly test.dll Provides movement to player using a queue of orders. public sealed class PlayerOrderTargeting : IPlayerTargeting Inheritance object PlayerOrderTargeting Implements IPlayerTargeting Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors PlayerOrderTargeting(IEnumerable<IOrder>) Provides movement to player using a queue of orders. public PlayerOrderTargeting(IEnumerable<IOrder> orders) Parameters orders IEnumerable<IOrder> Methods GetTargetMovement(Player) Gets the target movement direction for the player. public Vector2 GetTargetMovement(Player player) Parameters player Player The player for whom the target movement is being calculated. Returns Vector2 A normalized vector containing the direction the player should move to."
   },
   "api/WaveZ.Test.PlayerTargeting.html": {
     "href": "api/WaveZ.Test.PlayerTargeting.html",
@@ -601,7 +606,7 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "| WaveZ",
-    "keywords": ""
+    "title": "WaveZ Documentation | WaveZ",
+    "keywords": "WaveZ Documentation WaveZ is a top-down, round based survival shooter. You can find the API Documentation here."
   }
 }
