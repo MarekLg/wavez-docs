@@ -1,0 +1,1255 @@
+{
+  "source_base_path": "C:/Users/mlegr/Projects/WaveZ/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Game.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.GameState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.GameState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.CameraManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.CameraManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.BossProjectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.BossProjectile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.BossZombie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.BossZombie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.ExplosionZombie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.ExplosionZombie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.SwordsBoss.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.SwordsBoss.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.Zombie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.Zombie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Enemies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Map.Barrel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Map.Barrel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Map.Wall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Map.Wall.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Map.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Bullet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Bullet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Gun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Gun.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.PlayerTextures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.PlayerTextures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.RemoteBullet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.RemoteBullet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.RemoteGun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.RemoteGun.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.ShootingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.ShootingMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.IPlayerTargeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.IPlayerTargeting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.PlayerInputTargeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.PlayerInputTargeting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Targeting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.Weapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.WeaponType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.WeaponType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.GameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.GameObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.GameplayScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.GameplayScreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.GameplayState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.GameplayState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.IDrawable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.IDrawable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.ISolid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.ISolid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.IUpdatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.IUpdatable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.UI.GameplayOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.UI.GameplayOverlay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.UI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.WaveState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.WaveState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Gameplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Gameplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Menu.HowTo.HowToScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Menu.HowTo.HowToScreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Menu.HowTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Menu.HowTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Menu.MainMenuScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Menu.MainMenuScreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Menu.StartGameModal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Menu.StartGameModal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.NetworkClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.NetworkClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Resources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Screens.IScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Screens.IScreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Screens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Screens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.UI.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.UI.Button.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.UI.TextBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.UI.TextBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.UI.Title.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.UI.Title.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.UI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Ui.Dropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Ui.Dropdown.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.Ui_1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.Ui_1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Client.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.Barrel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.Barrel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.BossProjectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.BossProjectile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.BossZombie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.BossZombie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.ExplosionZombie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.ExplosionZombie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.Globals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.NetworkServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.NetworkServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.SwordsBoss.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.SwordsBoss.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.Wall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.Wall.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.WaveController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.WaveController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.Zombie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.Zombie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Server.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BarrelDestroyedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BarrelDestroyedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BarrelExplodePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BarrelExplodePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BarrelPlacedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BarrelPlacedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BossProjectileRemovedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BossProjectileRemovedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BossProjectileSpawnedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BossProjectileSpawnedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BossProjectileUpdatedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BossProjectileUpdatedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BulletDamagePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BulletDamagePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.BulletUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.BulletUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.CreateMapPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.CreateMapPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.MapCreatedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.MapCreatedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.PlaceBarrelPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.PlaceBarrelPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.PlayerHealthUpdatedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.PlayerHealthUpdatedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.PlayerJoinAcceptedPacket.ConnectedPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.PlayerJoinAcceptedPacket.ConnectedPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.PlayerJoinAcceptedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.PlayerJoinAcceptedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.PlayerJoinPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.PlayerJoinPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.PlayerJoinedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.PlayerJoinedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.PlayerSkinWeaponUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.PlayerSkinWeaponUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.RemoveBulletPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.RemoveBulletPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.SwordsBossUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.SwordsBossUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.TransformUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.TransformUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.UpdatedBarrelExplodePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.UpdatedBarrelExplodePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.UpdatedBulletPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.UpdatedBulletPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.UpdatedDestroyedBarrelPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.UpdatedDestroyedBarrelPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.UpdatedPlayerSkinWeaponPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.UpdatedPlayerSkinWeaponPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.UpdatedRemoveBulletPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.UpdatedRemoveBulletPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.UpdatedTransformPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.UpdatedTransformPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.UpdatedVectorPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.UpdatedVectorPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.VectorUpdatePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.VectorUpdatePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.WallPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.WallPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.WaveStartedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.WaveStartedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.ZombieDiedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.ZombieDiedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.ZombieExplodedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.ZombieExplodedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.ZombieExplosionCompletePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.ZombieExplosionCompletePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.ZombieHealthUpdatedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.ZombieHealthUpdatedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.ZombieSpawnedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.ZombieSpawnedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.ZombieTransformUpdatedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.ZombieTransformUpdatedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Networking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Networking.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Transforms.Transform2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Transforms.Transform2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.Transforms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.Transforms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.UpdatePlayerHealthPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.UpdatePlayerHealthPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.ElapsedTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.ElapsedTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.ITest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.ITest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.PlayerTargeting.IOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.PlayerTargeting.IOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.PlayerTargeting.Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.PlayerTargeting.Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.PlayerTargeting.PlayerOrderTargeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.PlayerTargeting.PlayerOrderTargeting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.PlayerTargeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.PlayerTargeting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.TestChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.TestChain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.TestMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.TestMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.TestResult.Fail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.TestResult.Fail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.TestResult.Success.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.TestResult.Success.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.TestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.TestResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.Tests.PlayerMovementTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.Tests.PlayerMovementTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.Tests.PlayerWallCollisionTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.Tests.PlayerWallCollisionTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WaveZ.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WaveZ.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

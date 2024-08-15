@@ -1,0 +1,787 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Player | WaveZ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Player | WaveZ ">
+      
+      <meta name="description" content="Represents the mainplayer in the game.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WaveZ">
+            WaveZ
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WaveZ.Client.Gameplay.Entities.Player.Player">
+
+
+
+  <h1 id="WaveZ_Client_Gameplay_Entities_Player_Player" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player" class="text-break">
+Class Player  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WaveZ.html">WaveZ</a>.<a class="xref" href="WaveZ.Client.html">Client</a>.<a class="xref" href="WaveZ.Client.Gameplay.html">Gameplay</a>.<a class="xref" href="WaveZ.Client.Gameplay.Entities.html">Entities</a>.<a class="xref" href="WaveZ.Client.Gameplay.Entities.Player.html">Player</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>client.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents the mainplayer in the game.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Player : IDrawable, IUpdatable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Player</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WaveZ.Client.Gameplay.IDrawable.html">IDrawable</a></div>
+      <div><a class="xref" href="WaveZ.Client.Gameplay.IUpdatable.html">IUpdatable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player__ctor_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.#ctor*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player__ctor_System_Int32_System_Int32_System_Int32_System_Int32_WaveZ_Client_Gameplay_Entities_Player_Targeting_IPlayerTargeting_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,WaveZ.Client.Gameplay.Entities.Player.Targeting.IPlayerTargeting)">
+  Player(int, int, int, int, IPlayerTargeting?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player(int screenWidth, int screenHeight, int width, int height, IPlayerTargeting? targeting = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>screenWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>screenHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>targeting</code> <a class="xref" href="WaveZ.Client.Gameplay.Entities.Player.Targeting.IPlayerTargeting.html">IPlayerTargeting</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_CurrentSkin_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.CurrentSkin*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_CurrentSkin" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.CurrentSkin">
+  CurrentSkin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentSkin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Gun_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Gun*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Gun" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Gun">
+  Gun
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gun Gun { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WaveZ.Client.Gameplay.Entities.Player.Gun.html">Gun</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_GunShootingMode_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.GunShootingMode*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_GunShootingMode" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.GunShootingMode">
+  GunShootingMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShootingMode GunShootingMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WaveZ.Client.Gameplay.Entities.Player.ShootingMode.html">ShootingMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Health_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Health*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Health" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Health">
+  Health
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Health { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Instance_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Instance*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Instance" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Instance">
+  Instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player? Instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WaveZ.Client.Gameplay.Entities.Player.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Money_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Money*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Money" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Money">
+  Money
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Money { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Score_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Score*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Score" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Score">
+  Score
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Score { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_SelectedWeaponIndex_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.SelectedWeaponIndex*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_SelectedWeaponIndex" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.SelectedWeaponIndex">
+  SelectedWeaponIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SelectedWeaponIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_ShootingInterval_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.ShootingInterval*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_ShootingInterval" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.ShootingInterval">
+  ShootingInterval
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShootingInterval { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Speed_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Speed*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Speed" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Speed">
+  Speed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Speed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Transform_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Transform*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Transform" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Transform">
+  Transform
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform2D Transform { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WaveZ.Shared.Transforms.Transform2D.html">Transform2D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_WeaponSlots_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.WeaponSlots*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_WeaponSlots" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.WeaponSlots">
+  WeaponSlots
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Weapon&gt; WeaponSlots { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="WaveZ.Client.Gameplay.Entities.Player.Weapon.html">Weapon</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Z_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Z*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Z" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Z">
+  Z
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Z { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Draw_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Draw*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Draw" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Draw">
+  Draw()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Draw()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_GetCollisionBox_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.GetCollisionBox*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_GetCollisionBox_System_Numerics_Vector2_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.GetCollisionBox(System.Numerics.Vector2)">
+  GetCollisionBox(Vector2)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rectangle GetCollisionBox(Vector2 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Rectangle</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_Update_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Update*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_Update_System_Single_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.Update(System.Single)">
+  Update(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update(float deltaTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WaveZ_Client_Gameplay_Entities_Player_Player_UpdatePlayerTexture_" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.UpdatePlayerTexture*"></a>
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_UpdatePlayerTexture" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.UpdatePlayerTexture">
+  UpdatePlayerTexture()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePlayerTexture()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="WaveZ_Client_Gameplay_Entities_Player_Player_OnPlayerDied" data-uid="WaveZ.Client.Gameplay.Entities.Player.Player.OnPlayerDied">
+  OnPlayerDied
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action? OnPlayerDied</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
